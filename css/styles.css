@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-nav {
+  /*display: inline-block;*/
+  float: none;
+  vertical-align: top;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+h1, h2{
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+.date, .about {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.blog {
+  margin: 1.5em auto;
+  max-width: 768px;
+  column-gap: 1.5em;
+}
+
+/* The Masonry Brick */
+.blog-post {
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .blog {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .blog {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .blog {
+    column-count: 2;
+  }
+}
+
+.about {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
+.inspo{
+  background: black;
+  padding: 20px;
+}
+
+.inspo-links {
+  margin: 50px;
+  text-align: center;
+}
+
+.post {
+  font-size: 12px;
+}
